@@ -1,0 +1,56 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Enter username"
+        android:textColorHint="#403232"
+        android:id="@+id/uname"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColorHint="#403232"
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/baseline_lock_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:background="#C34A4A"
+        android:layout_margin="20px"
+        android:id="@+id/logbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="#ffffff"
+        android:background="#902C2C"
+        android:layout_margin="20px"
+        android:id="@+id/signbtn"/>
+</LinearLayout>

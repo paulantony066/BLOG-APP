@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter name"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint=" Enter name"
+        android:id="@+id/name"
+        android:textColorHint="#7C7F80"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter age"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint=" Age"
+        android:inputType="number"
+        android:textColorHint="#7C7F80"
+        android:id="@+id/admn"
+        android:drawableLeft="@drawable/baseline_calendar_today_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint=" Enter password"
+        android:textColorHint="#7C7F80"
+        android:id="@+id/pass1"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm password"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:hint=" Confirm password"
+        android:id="@+id/pass2"
+        android:textColorHint="#7C7F80"
+        android:drawableLeft="@drawable/baseline_lock_24"
+     />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="SIGN UP"
+        android:textColor="#ffffff"
+        android:layout_margin="20px"
+        android:id="@+id/add"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="LOGOUT"
+        android:textColor="#ffffff"
+        android:layout_margin="20px"
+        android:id="@+id/log"
+
+        />
+</LinearLayout>

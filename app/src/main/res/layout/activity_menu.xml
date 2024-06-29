@@ -1,0 +1,43 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="ADD POST"
+        android:textColor="#ffffff"
+        android:background="#D13F3F"
+        android:layout_margin="30px"
+        android:id="@+id/add"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="SEARCH POST"
+        android:textColor="#ffffff"
+        android:background="#D13F3F"
+        android:layout_margin="30px"
+        android:id="@+id/search"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="DELETE POST"
+        android:textColor="#ffffff"
+        android:background="#D13F3F"
+        android:layout_margin="30px"
+        android:id="@+id/delete"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="LOG OUT"
+        android:textColor="#ffffff"
+        android:background="#A43030"
+        android:layout_margin="45dp"
+        android:id="@+id/logout"/>
+
+</LinearLayout>
